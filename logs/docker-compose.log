@@ -1,0 +1,11 @@
+unknown flag: --build
+unknown flag: --build
+docker compose -f docker-compose.appsmith.dev.yml --env-file  up --build -d
+unknown flag: --build
+docker compose -f docker-compose.appsmith.dev.yml --env-file  up --build -d
+open /Users/dickcheung/work/docker-compose-appsmith/docker-compose.appsmith.dev.yml: no such file or directory
+docker compose -f docker-compose.appsmith.dev.yml --env-file ./docker/.env.dev up --build -d
+Couldn't find env file: /Users/dickcheung/work/docker-compose-appsmith/.env.dev
+docker compose -f docker-compose.appsmith.dev.yml --env-file .env.dev up --build -d
+open /Users/dickcheung/work/docker-compose-appsmith/docker-compose.appsmith.dev.yml: no such file or directory
+docker compose -f docker-compose.appsmith.dev.yml --env-file ./docker/.env.dev up --build -d

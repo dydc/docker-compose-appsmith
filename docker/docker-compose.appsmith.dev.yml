@@ -1,0 +1,14 @@
+services:
+  some-appsmith-dev:
+    image: index.docker.io/appsmith/appsmith-ee
+    container_name: some-appsmith-dev
+    ports:
+      - "8080:80"
+    volumes:
+      - appsmith-dev-appsmith-stack:/appsmith-stacks
+      - appsmith-dev-repo:/appsmith/git-repo
+    restart: unless-stopped
+
+volumes:
+  appsmith-dev-appsmith-stack:
+  appsmith-dev-repo:
